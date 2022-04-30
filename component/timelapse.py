@@ -62,7 +62,7 @@ class Timelapse:
 
         # setup static (nonDB) settings
         out_dir_cfg = confighelper.get(
-            "output_path", "~/klipper_config/timelapse/")
+            "output_path", "~/timelapse/")
         temp_dir_cfg = confighelper.get(
             "frame_path", "/tmp/timelapse/")
         self.ffmpeg_binary_path = confighelper.get(
