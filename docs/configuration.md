@@ -44,7 +44,7 @@ Advanced Settings -> Gcode -> Layer Change Gcode -> ``TIMELAPSE_TAKE_FRAME``
 ##   Following basic configuration is default to most images and don't need
 ##   to be changed in most scenarios. Only uncomment and change it if your
 ##   Image differ from standart installations. In most common scenarios 
-##   a User only need [timelapse] in there configuration.
+##   a User only need [timelapse] in their configuration.
 #output_path: ~/timelapse/
 ##   Directory where the generated video will be saved
 #frame_path: /tmp/timelapse/
@@ -167,7 +167,7 @@ Defines the target length of a video (Unit seconds)
 #### variable_fps_min
 Minimum fps for variable_fps (Unit frames per second).
 
-#### variable_fps_min
+#### variable_fps_max
 Maximum fps for variable_fps (Unit frames per second).
 
 #### constant_rate_factor
