@@ -112,13 +112,13 @@ Possible configurations are [center, front_left, front_right, back_left, back_ri
 If you like to define a custom parkposition of your printhead.
 
 ##### park_custom_pos_x
-Absolut X coordinates of the custom parkposition (Unit mm)
+Absolute X coordinates of the custom parkposition (Unit mm)
 
 ##### park_custom_pos_y
-Absolut Y coordinates of the custom parkposition (Unit mm)
+Absolute Y coordinates of the custom parkposition (Unit mm)
 
 ##### park_custom_pos_dz
-Relative Y coordinates of the custom parkposition (Unit mm)
+Relative Z coordinates of the custom parkposition (Unit mm)
         
 #### park_travel_speed
 Speed of the printhead movement while parking (Unit mm/s)
@@ -248,5 +248,5 @@ You may want to change your Timelapse to a higher resolution, you
 need to change the Webcamstream to a higher resolution since the
 Component will grab the frame of the Streamer.
 To do so, please refer to the documentation of your Image:  
-- MainsailOS: https://docs.mainsail.xyz/quicktips/multicam
+- MainsailOS: https://crowsnest.mainsail.xyz/configuration/cam-section#resolution
 - FluiddPI: https://docs.fluidd.xyz/features/cameras 
